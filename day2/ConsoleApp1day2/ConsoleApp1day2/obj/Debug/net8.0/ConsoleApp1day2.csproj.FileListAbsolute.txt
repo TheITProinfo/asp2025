@@ -1,0 +1,14 @@
+D:\asp2025\day2\ConsoleApp1day2\ConsoleApp1day2\bin\Debug\net8.0\ConsoleApp1day2.exe
+D:\asp2025\day2\ConsoleApp1day2\ConsoleApp1day2\bin\Debug\net8.0\ConsoleApp1day2.deps.json
+D:\asp2025\day2\ConsoleApp1day2\ConsoleApp1day2\bin\Debug\net8.0\ConsoleApp1day2.runtimeconfig.json
+D:\asp2025\day2\ConsoleApp1day2\ConsoleApp1day2\bin\Debug\net8.0\ConsoleApp1day2.dll
+D:\asp2025\day2\ConsoleApp1day2\ConsoleApp1day2\bin\Debug\net8.0\ConsoleApp1day2.pdb
+D:\asp2025\day2\ConsoleApp1day2\ConsoleApp1day2\obj\Debug\net8.0\ConsoleApp1day2.GeneratedMSBuildEditorConfig.editorconfig
+D:\asp2025\day2\ConsoleApp1day2\ConsoleApp1day2\obj\Debug\net8.0\ConsoleApp1day2.AssemblyInfoInputs.cache
+D:\asp2025\day2\ConsoleApp1day2\ConsoleApp1day2\obj\Debug\net8.0\ConsoleApp1day2.AssemblyInfo.cs
+D:\asp2025\day2\ConsoleApp1day2\ConsoleApp1day2\obj\Debug\net8.0\ConsoleApp1day2.csproj.CoreCompileInputs.cache
+D:\asp2025\day2\ConsoleApp1day2\ConsoleApp1day2\obj\Debug\net8.0\ConsoleApp1day2.dll
+D:\asp2025\day2\ConsoleApp1day2\ConsoleApp1day2\obj\Debug\net8.0\refint\ConsoleApp1day2.dll
+D:\asp2025\day2\ConsoleApp1day2\ConsoleApp1day2\obj\Debug\net8.0\ConsoleApp1day2.pdb
+D:\asp2025\day2\ConsoleApp1day2\ConsoleApp1day2\obj\Debug\net8.0\ConsoleApp1day2.genruntimeconfig.cache
+D:\asp2025\day2\ConsoleApp1day2\ConsoleApp1day2\obj\Debug\net8.0\ref\ConsoleApp1day2.dll
