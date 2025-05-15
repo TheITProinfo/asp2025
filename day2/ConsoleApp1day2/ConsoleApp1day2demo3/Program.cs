@@ -5,11 +5,12 @@
         static void Main(string[] args)
         {
             //Console.WriteLine("Hello, World!");
-
+            // value type
             int num1 = 2025;
             int num2 = num1;
             num2 = 5000;
 
+            // reference type
             Student student1 = new Student(); // create  student1 object
 
             Student student2 = new Student();

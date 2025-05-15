@@ -12,3 +12,4 @@ D:\asp2025\day2\ConsoleApp1day2\ConsoleApp1day2demo3\obj\Debug\net8.0\refint\Con
 D:\asp2025\day2\ConsoleApp1day2\ConsoleApp1day2demo3\obj\Debug\net8.0\ConsoleApp1day2demo3.pdb
 D:\asp2025\day2\ConsoleApp1day2\ConsoleApp1day2demo3\obj\Debug\net8.0\ConsoleApp1day2demo3.genruntimeconfig.cache
 D:\asp2025\day2\ConsoleApp1day2\ConsoleApp1day2demo3\obj\Debug\net8.0\ref\ConsoleApp1day2demo3.dll
+D:\asp2025\day2\ConsoleApp1day2\ConsoleApp1day2demo3\obj\Debug\net8.0\ConsoleApp1day2demo3.sourcelink.json
