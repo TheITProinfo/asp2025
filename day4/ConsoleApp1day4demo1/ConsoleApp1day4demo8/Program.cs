@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            // this is example 
+            // this is example nine nie mutiplication table
 
             int iRow, iColumn;
             for ( iRow = 1; iRow <10; iRow++)  // define how many rows 

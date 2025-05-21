@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            // string[] fruits = new fruits[4];
+            // string[] fruits = new [4];
+            // fruits[] ={}
 
             string[] fruits = { "orange", "banana","apple","peal"};
 
