@@ -1,0 +1,15 @@
+D:\asp2025\day7\ConsoleApp1day7demo1\ConsoleApp1day7demo5\bin\Debug\net8.0\ConsoleApp1day7demo5.exe
+D:\asp2025\day7\ConsoleApp1day7demo1\ConsoleApp1day7demo5\bin\Debug\net8.0\ConsoleApp1day7demo5.deps.json
+D:\asp2025\day7\ConsoleApp1day7demo1\ConsoleApp1day7demo5\bin\Debug\net8.0\ConsoleApp1day7demo5.runtimeconfig.json
+D:\asp2025\day7\ConsoleApp1day7demo1\ConsoleApp1day7demo5\bin\Debug\net8.0\ConsoleApp1day7demo5.dll
+D:\asp2025\day7\ConsoleApp1day7demo1\ConsoleApp1day7demo5\bin\Debug\net8.0\ConsoleApp1day7demo5.pdb
+D:\asp2025\day7\ConsoleApp1day7demo1\ConsoleApp1day7demo5\obj\Debug\net8.0\ConsoleApp1day7demo5.GeneratedMSBuildEditorConfig.editorconfig
+D:\asp2025\day7\ConsoleApp1day7demo1\ConsoleApp1day7demo5\obj\Debug\net8.0\ConsoleApp1day7demo5.AssemblyInfoInputs.cache
+D:\asp2025\day7\ConsoleApp1day7demo1\ConsoleApp1day7demo5\obj\Debug\net8.0\ConsoleApp1day7demo5.AssemblyInfo.cs
+D:\asp2025\day7\ConsoleApp1day7demo1\ConsoleApp1day7demo5\obj\Debug\net8.0\ConsoleApp1day7demo5.csproj.CoreCompileInputs.cache
+D:\asp2025\day7\ConsoleApp1day7demo1\ConsoleApp1day7demo5\obj\Debug\net8.0\ConsoleApp1day7demo5.sourcelink.json
+D:\asp2025\day7\ConsoleApp1day7demo1\ConsoleApp1day7demo5\obj\Debug\net8.0\ConsoleApp1day7demo5.dll
+D:\asp2025\day7\ConsoleApp1day7demo1\ConsoleApp1day7demo5\obj\Debug\net8.0\refint\ConsoleApp1day7demo5.dll
+D:\asp2025\day7\ConsoleApp1day7demo1\ConsoleApp1day7demo5\obj\Debug\net8.0\ConsoleApp1day7demo5.pdb
+D:\asp2025\day7\ConsoleApp1day7demo1\ConsoleApp1day7demo5\obj\Debug\net8.0\ConsoleApp1day7demo5.genruntimeconfig.cache
+D:\asp2025\day7\ConsoleApp1day7demo1\ConsoleApp1day7demo5\obj\Debug\net8.0\ref\ConsoleApp1day7demo5.dll
