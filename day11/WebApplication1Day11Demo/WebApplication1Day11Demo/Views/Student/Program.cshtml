@@ -1,0 +1,21 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["sum"] = 2025;
+    ViewData["Title"] = "Program page";
+}
+
+<p>this is program page under student controller</p>
+<div>
+    <p> <label>program name:</label>
+        <span>@ViewData["ProgramName"] </span>
+    </p>
+    <p>Program Date</p>
+    <span>@ViewBag.ProgramDate</span>
+    <p>
+        @ViewData["sum"]
+        @ViewData["sum"]
+        
+    </p>
+</div>
