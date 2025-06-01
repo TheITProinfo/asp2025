@@ -1,0 +1,32 @@
+﻿
+@{
+    ViewData["Title"] = "Create student";
+}
+@model ASP.netCore.MVCCRUD.day14.demo1.Models.StudentViewModel
+
+<h2>Create Student</h2>
+
+<form asp-action="Create" method="post">
+    <div class="mb-3">
+        <label asp-for="FirstName" class="form-label">First Name</label>
+        <input asp-for="FirstName" class="form-control" />
+        <span asp-validation-for="FirstName" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="LastName" class="form-label">Last Name</label>
+        <input asp-for="LastName" class="form-control" />
+        <span asp-validation-for="LastName" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Email" class="form-label">Email</label>
+        <input asp-for="Email" class="form-control" />
+        <span asp-validation-for="Email" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">
+        <i class="bi bi-plus-circle me-1"></i> Create
+    </button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
