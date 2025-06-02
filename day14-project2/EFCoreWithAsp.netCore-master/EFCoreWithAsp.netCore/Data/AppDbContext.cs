@@ -1,9 +1,10 @@
 ﻿using EFCoreWithAsp.netCore.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace EFCoreWithAsp.netCore.Data
 {
-    public class AppDbContext:DbContext
+    public class AppDbContext:IdentityDbContext
     {
         //Constructor
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)

@@ -1,6 +1,7 @@
 using EFCoreWithAsp.netCore.Data;
 using EFCoreWithAsp.netCore.Repositories;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +11,8 @@ builder.Services.AddControllersWithViews();
 //Register DbContext
 var connectionString = builder.Configuration.GetConnectionString("EmpMngtConnection");
 builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString));
+
+builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<AppDbContext>();
 
 //Register Department service
 builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
