@@ -14,5 +14,8 @@ namespace EFCoreWithAsp.netCore.Data
         //DbSet properties
         public DbSet<Department> Departments { get; set; }
         public DbSet<Employee> Employees { get; set; }
+        // Identity tables are automatically created by IdentityDbContext
+        public DbSet<ApplicationUser> ApplicationUsers { get; set; } // Not needed, IdentityDbContext already handles this
+
     }
 }

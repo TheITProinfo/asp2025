@@ -10,7 +10,7 @@ public static class MSSQLHelper
         AppConfigurationService._configuration.GetConnectionString("myConnectionString");
 
     /// <summary>
-    /// pass one sql script, execute noQuery (inset/delete/update)
+    /// pass one sql script, execute noQuery (insert/delete/update)
     /// </summary>
     /// <param name="sqlTxt"></param>
     /// <returns>int affected rows</returns>
@@ -49,7 +49,7 @@ public static class MSSQLHelper
     }
 
     /// <summary>
-    /// get value of the first colummn first row
+    /// get value of the first column first row
     /// </summary>
     /// <param name="sqlTxt"></param>
     /// <returns></returns>
