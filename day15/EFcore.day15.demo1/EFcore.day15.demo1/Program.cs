@@ -21,7 +21,7 @@ internal class Program
 
     #region AddBranch
 
-    // encapsulated to add branch methid
+    // encapsulated to add branch method
     private static void AddBranch(EFCoreDbContext dbContext)
     {
         var branch1 = new Branch
