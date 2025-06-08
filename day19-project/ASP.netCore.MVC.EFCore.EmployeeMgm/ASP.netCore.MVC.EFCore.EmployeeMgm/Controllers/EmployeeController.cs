@@ -104,11 +104,19 @@ public class EmployeeController : Controller
     [HttpPost]
     public async Task<IActionResult> AddAsync(EmployeeViewModel model)
     {
-        
-       
-        //  add the record into the database
-        await _employeeRepository.AddAsync(model);
-        return RedirectToAction("Index","Employee");
+        if (ModelState.IsValid)
+        {
+
+
+
+          //  add the record into the database
+            await _employeeRepository.AddAsync(model);
+            // add successfuly message
+            TempData["SuccessMessage"] = "Employee added successfully!";
+            return RedirectToAction("Index", "Employee");
+        }
+
+        return View(model);
     }
 
 
@@ -141,6 +149,8 @@ public class EmployeeController : Controller
         }
         //Update the database with modified details
         await _employeeRepository.UpdateAsync(employee);
+        // update successfully message
+        TempData["SuccessMessage"] = "Employee updated successfully!";
 
         // Redirect to List all department page
         return RedirectToAction("Index", "Employee");
@@ -159,6 +169,40 @@ public class EmployeeController : Controller
         // Redirect to List all department page
         return RedirectToAction("Index", "Employee");
     }
+
+    #endregion
+
+    #region Add to export excel
+    //GET: /Employee/ExportToExcel
+    [HttpGet]
+    public async Task<IActionResult> ExportToExcel()
+    {
+        var employees = await _employeeRepository.GetAllForExportAsync();
+        var content = ExcelExportHelper.ExportEmployeesToExcel(employees);
+        var fileName = $"Employees_{DateTime.Now:yyyyMMddHHmmss}.xlsx";
+
+        return File(content,
+            "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+            fileName);
+    }
+
+    #endregion
+
+    #region Add export to PDF 
+    //  Add export to PDF
+    // GET: /Employee/ExportToPdf
+    [HttpGet]
+
+    public async Task<IActionResult> ExportToPdf()
+    {
+        var employees = await _employeeRepository.GetAllForExportAsync();
+        var imagesFolderPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images");
+
+        var pdfContent = PdfExportHelper.ExportEmployeesToPdf(employees, imagesFolderPath);
+
+        return File(pdfContent, "application/pdf", $"Employees_{DateTime.Now:yyyyMMddHHmmss}.pdf");
+    }
+
 
     #endregion
 } //end of class

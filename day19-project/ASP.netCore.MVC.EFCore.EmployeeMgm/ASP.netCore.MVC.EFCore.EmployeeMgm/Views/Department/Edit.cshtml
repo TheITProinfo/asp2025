@@ -1,0 +1,41 @@
+﻿@model ASP.netCore.MVC.EFCore.EmployeeMgm.ViewModels.DepartmentViewModel
+@{
+    ViewData["Title"] = "Edit Departments";
+}
+
+<div class="container p-4">
+    <!--edit title-->
+    <div class="row">
+        <div class="col-md-4">
+            <h3 > Edit Department</h3>
+        </div>
+    </div>
+    <!--edit form-->
+    <div class="row">
+        <div class="col-md-4">
+            <div>
+                <form asp-controller="Department" asp-action="Edit" method="post">
+                    <div class="mb-3">
+                        <label for="Name" class="form-label fw-bold"></label>
+                        <input asp-for="Name" class="form-control">
+                        <span asp-validation-for="Name" class="text-danger"></span>
+                    </div>
+                    <input type="hidden" asp-for="DepartmentId" />
+                    <button type="submit" class="btn btn-dark">Update</button>
+                </form>
+            </div>
+        </div>
+        
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+    </div>
