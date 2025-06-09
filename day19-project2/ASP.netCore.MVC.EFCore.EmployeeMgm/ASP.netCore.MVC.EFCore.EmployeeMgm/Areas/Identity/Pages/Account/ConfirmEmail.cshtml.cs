@@ -15,6 +15,8 @@ using Microsoft.AspNetCore.WebUtilities;
 
 namespace ASP.netCore.MVC.EFCore.EmployeeMgm.Areas.Identity.Pages.Account
 {
+    //add allow anonymous attribute to allow anonymous access to this page
+    [AllowAnonymous]
     public class ConfirmEmailModel : PageModel
     {
         private readonly UserManager<ApplicationUser> _userManager;

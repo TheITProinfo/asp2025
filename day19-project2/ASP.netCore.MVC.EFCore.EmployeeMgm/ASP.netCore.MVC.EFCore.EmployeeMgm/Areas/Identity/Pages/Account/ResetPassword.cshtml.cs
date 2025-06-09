@@ -14,7 +14,9 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
 
 namespace ASP.netCore.MVC.EFCore.EmployeeMgm.Areas.Identity.Pages.Account
-{
+{  
+    //add allow anonymous access to this page
+    [AllowAnonymous]
     public class ResetPasswordModel : PageModel
     {
         private readonly UserManager<ApplicationUser> _userManager;

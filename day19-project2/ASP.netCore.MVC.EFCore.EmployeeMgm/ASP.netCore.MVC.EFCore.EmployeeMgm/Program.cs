@@ -1,4 +1,4 @@
-
+using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 
 using ASP.netCore.MVC.EFCore.EmployeeMgm.Data;
@@ -45,7 +45,7 @@ public class Program
         // add email service
         builder.Services.AddDefaultIdentity<ApplicationUser>(options =>
             {
-                options.SignIn.RequireConfirmedAccount = false; // Require email confirmation
+                options.SignIn.RequireConfirmedAccount = true; // Require email confirmation
             })
             .AddEntityFrameworkStores<AppDbContext>()
             .AddDefaultTokenProviders(); // Needed for email confirmation tokens
@@ -54,6 +54,13 @@ public class Program
         builder.Services.AddScoped<IDepartmentRepository, DepartmentRepository>();
         //  register employee service
         builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+        // register email service
+        //builder.Services.AddTransient<IEmailSender_notused, EmailSender>();
+        //  register Gmail email service
+        builder.Services.AddTransient<IEmailSender, GmailEmailSender>();
+        //builder.Services.Configure<AuthMessageSenderOptions>(builder.Configuration);
+        //builder.Services.AddTransient<IEmailSender, EmailSender>();
+
 
 
         var app = builder.Build();
